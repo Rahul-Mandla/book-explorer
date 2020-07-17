@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  background:rgba(251, 120, 27, 0.76);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+.logo{
+  text-transform: uppercase;
+}
+.search-bar{
+ input{border: none; 
+border-radius: 5px;
+}
+
+}
+.navlinks{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  // margin-right: auto;
+}
+li a{
+  text-decoration: none;
+  color:black;
+  margin-right: 10px;
+}
+}
